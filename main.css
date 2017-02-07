@@ -1,0 +1,10 @@
+.header{
+  & ul{
+    list-style-type: none;
+    overflow: hidden;
+
+  }
+  & li{
+    float:left;
+  }
+}
