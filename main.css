@@ -4,5 +4,12 @@
 
 }
 .header li{
-    float:left;
+  float: left;
+  padding: 10px;
+  color: #00BBFF;
+  text-decoration: none;
+  display: block;
+}
+.header li a{
+  text-decoration: none;
 }
