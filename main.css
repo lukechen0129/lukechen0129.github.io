@@ -5,11 +5,13 @@
 }
 .header li{
   float: left;
+}
+.header li a{
   padding: 10px;
-  color: #00BBFF;
+  color: #878787;
   text-decoration: none;
   display: block;
 }
-.header li a{
-  text-decoration: none;
+.header li a.active{
+  color: #00BBFF;
 }
