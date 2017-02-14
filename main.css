@@ -118,3 +118,10 @@ body{
     background-color: #878787;
     color:white;
 }
+.contact-icon{
+  color:#878787;
+  background-color:white;
+  padding:6px 8px;
+  border-radius:50%;
+  font-size:14px;
+}
