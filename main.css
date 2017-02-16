@@ -79,21 +79,23 @@ body{
   background-color: #00BBFF;
 }
 .contents{
-  margin-top: 71px;
+  /*margin-top: 71px;*/
   background-color: #ABABAB;
 }
 .banner{
   position: relative;
   display: flex;
   flex-direction: column;
-  height: 500px;
+  height: 700px;
   align-items: center;
   justify-content: center;
-  background-image: url("/bg.JPG") no-repeat center;
-  background-size:cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-image: url(/bg.JPG);
+  background-size: cover;
 }
-.banner::after{
-  background-color: blue;
+.banner::before{
+  background-color: rgba(24,24,255,0.4);
 }
 .title{
   font-size: 70px;
