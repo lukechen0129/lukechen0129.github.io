@@ -89,9 +89,14 @@ body{
   height: 500px;
   align-items: center;
   justify-content: center;
+  background-image: url("/bg.JPG") no-repeat center;
+  background-size:cover;
+}
+.banner::after{
+  background-color: blue;
 }
 .title{
-  font-size: 50px;
+  font-size: 70px;
   color: white;
 }
 .title2{
@@ -100,7 +105,13 @@ body{
 }
 .title3{
   color: white;
-  font-size: 20px;
+  font-size: 15px;
+    font-weight: 200;
+    padding: 6px;
+    margin: 5px;
+    letter-spacing: 1px;
+    border-bottom: white solid 1px;
+    border-top: white solid 1px;
 }
 .about{
   display:flex;
