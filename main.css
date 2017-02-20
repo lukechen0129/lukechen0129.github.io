@@ -25,12 +25,12 @@ body{
 }
 .header li a{
   padding: 10px;
-  color: #2A5382;
+  color: #1F273C;
   text-decoration: none;
   display: block;
 }
 .header li a.active{
-  color: #1F273C;
+  color: #2A5382;
 }
 .logo{
     padding: 4px 2px 2px 2px;
@@ -43,8 +43,8 @@ body{
     align-items: center;
     justify-content: center;
     transition: all 0.6s ease;
-    color: #1F273C;
-    border: #1F273C 2px solid;
+    color: #2A5382;
+    border: #2A5382 2px solid;
 }
 
 .contents{
