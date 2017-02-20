@@ -12,7 +12,7 @@ body{
     width: 100%;
     height:71px;
     padding: 0 4%;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(210,222,234,0.7);
     z-index: 100;
 }
 .header ul{
@@ -25,12 +25,12 @@ body{
 }
 .header li a{
   padding: 10px;
-  color: #878787;
+  color: #2A5382;
   text-decoration: none;
   display: block;
 }
 .header li a.active{
-  color: #00BBFF;
+  color: #1F273C;
 }
 .logo{
     padding: 4px 2px 2px 2px;
@@ -43,8 +43,8 @@ body{
     align-items: center;
     justify-content: center;
     transition: all 0.6s ease;
-    color: #00BBFF;
-    border: #00BBFF 2px solid;
+    color: #1F273C;
+    border: #1F273C 2px solid;
 }
 
 .contents{
@@ -97,7 +97,7 @@ body{
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #758EB2;
+    background-color: #1F273C;
     color:white;
     font-weight: 300;
     font-size:14px;
@@ -107,7 +107,7 @@ body{
   padding: 6px 3px 3px 3px;
 }
 .contact-icon{
-  color:#758EB2;
+  color:#1F273C;
   background-color:white;
   border-radius:50%;
   margin:5px;
@@ -119,7 +119,7 @@ body{
 }
 .contact-icon a{
   text-decoration: none;
-  color:#878787;
+  color:#1F273C;
 }
 .copyright{
   padding:3px 3px 6px 3px;
