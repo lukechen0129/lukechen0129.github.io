@@ -76,6 +76,9 @@ body{
 		align-items: center;
 		justify-content: center;
 	}
+	.banner{
+		height:300px;
+	}
 }
 #m-menu-list{
 	display:none;
@@ -95,9 +98,9 @@ body{
   height: 700px;
   align-items: center;
   justify-content: center;
-  background-position: bottom;
+  background-position: bottom left;
   background-repeat: no-repeat;
-  background-image: url(/bg.JPG);
+  background-image: url(/hero-slide02.png);
   background-size: cover;
 }
 .banner::before{
