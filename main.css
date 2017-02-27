@@ -100,7 +100,7 @@ body{
   justify-content: center;
   background-position: bottom left;
   background-repeat: no-repeat;
-  background-image: url(/hero-slide02.png);
+  background-image: url(/hero-slide02.jpg);
   background-size: cover;
 }
 .banner::before{
