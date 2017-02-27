@@ -63,6 +63,14 @@ body{
 	.header ul{
 		display: none;
 	}
+	#m-menu-list{
+		position: absolute;
+		width:100vw;
+		height:auto;
+	}
+	#m-menu-list ul{
+		display: block;
+	}
 }
 #m-menu-list{
 	display:none;
