@@ -223,10 +223,12 @@ body{
 	}
 	.projects{
 		flex-direction: column;
+		padding:2.5vw 15px;
 
 	}
 	.project-card{
 		width:90vw;
 		height:70vw;
+		margin:2.5vw;
 	}
 }
