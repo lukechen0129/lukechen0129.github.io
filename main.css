@@ -59,6 +59,9 @@ body{
 	#m-menu-btn{
 		display: default;
 	}
+	.header ul{
+		display: none;
+	}
 }
 #m-menu-list{
 	display:none;
