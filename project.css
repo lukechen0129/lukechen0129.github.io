@@ -146,33 +146,7 @@ body{
   padding:3px 3px 6px 3px;
   font-size: 12px;
 }
-@media only screen and (max-width:560px) {
-	#m-menu-btn{
-		display: block;
-		position: absolute;
-		right:20px;
-		top:18px;
-	}
-	.header ul{
-		display: none;
-	}
-	#m-menu-list{
-		position: absolute;
-		width:100vw;
-		top:55px;
-		left:0;
-		height:auto;
-	}
-	#m-menu-list ul{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
-	.banner{
-		height:300px;
-	}
-}
+
 .projects{
 	background-color: #505050;
 	display: flex;
@@ -217,7 +191,42 @@ body{
 .project-card .card-content .content{
 	font-size: 16px;
     color: white;
-    font-weight: 400;
+    font-weight: 300;
     padding: 0 25px;
     text-align: center;
+}
+@media only screen and (max-width:560px) {
+	#m-menu-btn{
+		display: block;
+		position: absolute;
+		right:20px;
+		top:18px;
+	}
+	.header ul{
+		display: none;
+	}
+	#m-menu-list{
+		position: absolute;
+		width:100vw;
+		top:55px;
+		left:0;
+		height:auto;
+	}
+	#m-menu-list ul{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.banner{
+		height:300px;
+	}
+	.projects{
+		flex-direction: column;
+
+	}
+	.project-card{
+		width:90vw;
+		height:70vw;
+	}
 }
