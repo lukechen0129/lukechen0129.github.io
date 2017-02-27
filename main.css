@@ -46,7 +46,23 @@ body{
     color: #2A5382;
     border: #2A5382 2px solid;
 }
-
+#m-menu-list, #m-menu-btn{
+	background-color: rgba(210,222,234,0.7);
+	z-index: 100;
+	color:#1F273C;
+}
+#m-menu-btn{
+	border:1px #878787 solid;
+	display:none;
+}
+@media only screen and (max-width:560px) {
+	#m-menu-btn{
+		display: default;
+	}
+}
+#m-menu-list{
+	display:none;
+}
 .contents{
   /*margin-top: 71px;*/
   background-color: #ABABAB;
