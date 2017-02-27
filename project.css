@@ -74,7 +74,7 @@ body{
   justify-content: center;
   background-position: bottom left;
   background-repeat: no-repeat;
-  background-image: url(/hero-slide02.jpg);
+  background-image: url(/project-bg.jpeg);
   background-size: cover;
 }
 .banner::before{
@@ -91,12 +91,12 @@ body{
 .title3{
   color: white;
   font-size: 15px;
-    font-weight: 200;
-    padding: 6px;
-    margin: 5px;
-    letter-spacing: 1px;
-    border-bottom: white solid 1px;
-    border-top: white solid 1px;
+  font-weight: 200;
+  padding: 6px;
+  margin: 5px;
+  letter-spacing: 1px;
+  border-bottom: white solid 1px;
+  border-top: white solid 1px;
 }
 .about{
   display:flex;
