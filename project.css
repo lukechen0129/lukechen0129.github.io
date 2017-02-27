@@ -191,6 +191,8 @@ body{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	background-size: cover;
+	background-position: center;
 }
 .project-card .card-content{
 	position:absolute;
@@ -198,8 +200,20 @@ body{
 	height:100%;
 	border-radius: 8px;
 	opacity: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	transition: 0.3s;
 }
 .project-card .card-content:hover{
 	opacity: 1;
 	background-color: rgba(42,83,130,0.6);
+}
+.project-card .card-content .title{
+	font-size:26px;
+}
+.project-card .card-content .content{
+	font-size:16px;
+	color:white;
 }
