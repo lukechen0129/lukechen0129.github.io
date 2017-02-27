@@ -176,23 +176,24 @@ body{
 .projects{
 	background-color: #505050;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-around;
+	padding:0 15px;
 }
 .project-card{
 	background-color: #E0E0E0;
-	border:1px #878787 solid;
-	border-radius: 8px;
-	width:55vw;
-	height:40vw;
-	position: relative;
-	margin:10px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	background-size: cover;
-	background-position: center;
+  border: 1px #878787 solid;
+  border-radius: 8px;
+  width: 30vw;
+  height: 20vw;
+  position: relative;
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
 }
 .project-card .card-content{
 	position:absolute;
@@ -214,7 +215,9 @@ body{
 	font-size:26px;
 }
 .project-card .card-content .content{
-	font-size:16px;
-	color:white;
-	font-weight: 400;
+	font-size: 16px;
+    color: white;
+    font-weight: 400;
+    padding: 0 25px;
+    text-align: center;
 }
