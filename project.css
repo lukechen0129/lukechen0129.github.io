@@ -185,6 +185,10 @@ body{
 	opacity: 1;
 	background-color: rgba(42,83,130,0.6);
 }
+.project-card .card-content:active{
+	opacity: 1;
+	background-color: rgba(42,83,130,0.6);
+}
 .project-card .card-content .title{
 	font-size:26px;
 }
@@ -228,7 +232,7 @@ body{
 	}
 	.project-card{
 		width:90vw;
-		height:70vw;
+		height:60vw;
 		margin:2.5vw;
 	}
 }
