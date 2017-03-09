@@ -227,12 +227,17 @@ body{
 	}
 	.projects{
 		flex-direction: column;
-		padding:2.5vw 15px;
+		padding:2.5vw;
 
 	}
 	.project-card{
 		width:90vw;
 		height:60vw;
 		margin:2.5vw;
+	}
+	.contact-icon{
+		width:40px;
+		height:40px;
+		font-size:20px;
 	}
 }

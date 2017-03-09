@@ -169,4 +169,9 @@ body{
 	.banner{
 		height:300px;
 	}
+	.contact-icon{
+		width:40px;
+		height:40px;
+		font-size:20px;
+	}
 }
