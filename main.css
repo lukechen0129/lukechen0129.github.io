@@ -37,6 +37,7 @@ body{
 	padding:15px;
 	width: 150px;
   text-align: center;
+	transition: 0.4s;
 }
 .button:hover{
 	background-color: #6d9dc5;
