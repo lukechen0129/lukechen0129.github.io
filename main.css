@@ -30,6 +30,13 @@ body{
     background-color: rgba(210,222,234,0.7);
     z-index: 100;
 }
+.button{
+	background-color: #33658a;
+	font-color:white;
+}
+.button:hover{
+	background-color: #6d9dc5;
+}
 .header ul{
     list-style-type: none;
     overflow: hidden;
@@ -141,6 +148,7 @@ body{
 	padding-bottom: 10px;
 	font-size:18px;
 	color:#878787;
+	font-weight:300;
 }
 .footer{
     display: flex;
