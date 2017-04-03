@@ -179,8 +179,8 @@ body{
 	justify-content:center;
 }
 .skill-container ul a li img{
-	width:60px;
-	height:auto;
+	height:60px;
+	width:auto;
 }
 .footer{
     display: flex;
