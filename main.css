@@ -207,7 +207,7 @@ label{
 	top:23px;
 	left:6px;
 }
-.field .contact form input:focus~label{
+.contact form input:focus + label{
 	transform: translateZ(0);
   pointer-events: all;
 }
