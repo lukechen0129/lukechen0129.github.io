@@ -181,6 +181,22 @@ body{
   align-items: center;
   justify-content: center;
 }
+.contact-icon:hover{
+  color:white;
+  background-color:#1F273C;
+  border-radius:50%;
+	border:0.1px solid white;
+  margin:5px;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-icon:hover a{
+  text-decoration: none;
+  color:#white;
+}
 .contact-icon a{
   text-decoration: none;
   color:#1F273C;
