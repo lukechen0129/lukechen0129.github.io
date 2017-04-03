@@ -153,6 +153,21 @@ body{
 	color:#878787;
 	font-weight:300;
 }
+.skill-container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.skill-container ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.skill-container ul li{
+	width:150px;
+	height:auto;
+}
 .footer{
     display: flex;
     align-items: center;
@@ -174,6 +189,7 @@ body{
   color:#1F273C;
   background-color:white;
   border-radius:50%;
+	border:0.1px solid white;
   margin:5px;
   width: 28px;
   height: 28px;
@@ -195,7 +211,7 @@ body{
 }
 .contact-icon:hover a{
   text-decoration: none;
-  color:#white;
+  color:white;
 }
 .contact-icon a{
   text-decoration: none;
