@@ -101,7 +101,7 @@ body{
 }
 .title2{
 	color: #2A5382;
-  font-size: 30px;
+  font-size: 35px;
   padding: 40px;
 }
 .title3{
@@ -133,6 +133,14 @@ body{
 	background-position: center bottom;
 	width: 26vw;
 	height: 33vw;
+}
+.about-point ul{
+	margin:0;
+}
+.about-point ul li{
+	padding-bottom: 10px;
+	font-size:18px;
+	color:#878787;
 }
 .footer{
     display: flex;
