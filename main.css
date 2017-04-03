@@ -202,14 +202,17 @@ body{
 .field{
 	position: relative;
 }
-label{
+input ~ label{
 	position:absolute;
 	top:23px;
 	left:6px;
 }
-.contact form input:focus + label{
-	transform: translateZ(0);
-  pointer-events: all;
+input:focus ~ label,
+input:not(:focus):valid ~ label{
+  top: 0px;
+  left: 6px;
+  font-size: 11px;
+  opacity: 1;
 }
 input.gform_btn{
 	width: 200px;
