@@ -74,7 +74,7 @@ body{
   justify-content: center;
   background-position: bottom left;
   background-repeat: no-repeat;
-  background-image: url(/project-bg.jpeg);
+  background-image: url(/img/project-bg.jpeg);
   background-size: cover;
 }
 .banner .overlay{

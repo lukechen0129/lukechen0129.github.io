@@ -74,7 +74,7 @@ body{
   justify-content: center;
   background-position: bottom left;
   background-repeat: no-repeat;
-  background-image: url(/hero-slide02.jpg);
+  background-image: url(/img/hero-slide02.jpg);
   background-size: cover;
 }
 .banner::before{
@@ -102,6 +102,13 @@ body{
   display:flex;
   flex-direction:column;
   align-items:center;
+	justify-content: center;
+}
+.about-pic{
+	background-size: cover;
+	background-repeat: no-repeat;
+	width:40vw;
+	height:45vw;
 }
 .footer{
     display: flex;
