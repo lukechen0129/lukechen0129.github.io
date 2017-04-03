@@ -177,10 +177,26 @@ body{
 	display:flex;
 	align-items:center;
 	justify-content:center;
+	transition: 0.4s;
+}
+.skill-container ul a li:hover{
+	opacity:0.5;
 }
 .skill-container ul a li img{
 	height:60px;
 	width:auto;
+}
+.contact{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.contact form input{
+	padding:5px;
+	width:100px;
+	height:20px;
+	border-radius: 8px;
 }
 .footer{
     display: flex;
