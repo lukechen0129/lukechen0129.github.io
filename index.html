@@ -120,12 +120,25 @@
 		</div>
 		<div class="contact">
 			<div class="title2">CONTACT ME</div>
+			<script type="text/javascript">
+      $('#gform').on('submit', function(e) {
+        $('#gform *').fadeOut(2000);
+        $('#gform').prepend('已成功登記！感謝您～');
+        });
+      </script>
 			<form name="gform" id="gpost" method="POST" enctype="text/plain" target="hidden_iframe" action="https://docs.google.com/forms/d/1TdJaq4mW2DUdcWXQ7479Gat2rWu0ryyI2cJmT2HP3sQ/formResponse">
-				<div><input name="entry.274649099" id="entry.274649099" type="text" required></div>
-				<div><input name="entry.1677447218" id="entry.1677447218" type="email" required></div>
+				<div class="field">
+					<input name="entry.274649099" id="entry.274649099" type="text" required>
+					<label for="entry.274649099">Name</label>
+				</div>
+				<div>
+					<input name="entry.1677447218" id="entry.1677447218" type="email" required>
+					<label for="entry.1677447218">Email</label>
+				</div>
 				<div><textarea name="entry.271150526" id="entry.271150526" required></textarea></div>
 				<input class="gform_btn" type="submit" value="Submit">
 			</form>
+			<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
 		</div>
 	</div>
 	<div class="footer">

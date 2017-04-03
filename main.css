@@ -197,6 +197,19 @@ body{
 	width:200px;
 	height:20px;
 	border-radius: 8px;
+	margin-top: 20px;
+}
+.field{
+	position: relative;
+}
+label{
+	position:absolute;
+	top:23px;
+	left:6px;
+}
+.field .contact form input:focus~label{
+	transform: translateZ(0);
+  pointer-events: all;
 }
 input.gform_btn{
 	width: 200px;
