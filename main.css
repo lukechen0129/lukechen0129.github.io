@@ -165,14 +165,14 @@ body{
 	flex-wrap: wrap;
 }
 .skill-container ul a li{
-	width:150px;
-	height:auto;
+	width:100px;
+	height:100px;
 	display:flex;
 	align-items:center;
 	justify-content:center;
 }
 .skill-container ul a li img{
-	width:150px;
+	width:100px;
 	height:auto;
 }
 .footer{
