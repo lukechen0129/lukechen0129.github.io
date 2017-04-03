@@ -206,12 +206,20 @@ body{
 	margin-top: 20px;
  border:1px solid #878787;
 }
+.contact form textarea{
+	margin-top: 20px;
+	width: 500px;
+  height: 60px;
+	padding: 5px;
+  border-radius: 8px;
+  border: 1px solid #878787;
+}
 .field{
 	position: relative;
 }
 input ~ label, textarea ~ label{
 	position:absolute;
-	top:26px;
+	top:28px;
 	left:6px;
 	font-size: 12px;
 	transition: 0.4s;
@@ -233,14 +241,6 @@ textarea:not(:focus):valid ~ label{
 	border:1px #1f273c solid;
 	background-color: #1f273c;
 	color: white;
-}
-.contact form textarea{
-	margin: 0px;
-  width: 500px;
-  height: 60px;
-	padding: 5px;
-  border-radius: 8px;
-  border: 1px solid #878787;
 }
 .footer{
     display: flex;
