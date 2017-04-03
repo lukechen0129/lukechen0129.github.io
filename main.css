@@ -121,6 +121,7 @@ body{
 	display: flex;
 	flex-direction: row;
 	align-items: flex-start;
+	flex-wrap: wrap;
 	justify-content: space-around;
 	width: 1024px;
 }
@@ -128,8 +129,10 @@ body{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center bottom;
-	width: 26vw;
-	height: 33vw;
+}
+.about-pic img{
+	width:100%;
+	height:auto;
 }
 .about-point{
 	display: flex;
@@ -200,9 +203,15 @@ body{
 	.col-12 {width: 100%;}
 }
 @media only screen and (max-width:560px) {
-	.col-m-12 {width: 100vw;}
+	.col-m-12 {
+		width: 100vw;
+		padding:15px;
+	}
 	.logo{
 		margin:0 0 0 4%;
+	}
+	.title2{
+		margin:15px;
 	}
 	#m-menu-btn{
 		display: block;
@@ -229,6 +238,10 @@ body{
 	}
 	.banner{
 		height:300px;
+	}
+	.about-pic{
+		width:85%;
+		height:auto;
 	}
 	.contact-icon{
 		width:40px;
