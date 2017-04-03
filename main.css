@@ -167,6 +167,9 @@ body{
 .skill-container ul a li{
 	width:150px;
 	height:auto;
+	display:flex;
+	align-items:center;
+	justify-content:center;
 }
 .skill-container ul a li img{
 	width:150px;
