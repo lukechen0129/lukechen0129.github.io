@@ -194,9 +194,26 @@ body{
 }
 .contact form input{
 	padding:5px;
-	width:100px;
+	width:200px;
 	height:20px;
 	border-radius: 8px;
+}
+input.gform_btn{
+	width: 200px;
+	height: 30px;
+	padding:5px;
+	border-radius: 8px;
+	border:1px #1f273c solid;
+	background-color: #1f273c;
+	color: white;
+}
+.contact form textarea{
+	margin: 0px;
+  width: 500px;
+  height: 60px;
+	padding: 5px;
+  border-radius: 8px;
+  border: 1px solid #878787;
 }
 .footer{
     display: flex;
