@@ -217,7 +217,7 @@ input:not(:focus):valid ~ label{
   font-size: 12px;
   opacity: 1;
 }
-input.gform_btn{
+.gform_btn{
 	width: 200px;
 	height: 30px;
 	padding:5px;
