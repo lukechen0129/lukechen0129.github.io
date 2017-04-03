@@ -33,6 +33,9 @@ body{
 .button{
 	background-color: #33658a;
 	font-color:white;
+	padding:15px;
+	width: 150px;
+  text-align: center;
 }
 .button:hover{
 	background-color: #6d9dc5;
@@ -140,6 +143,12 @@ body{
 	background-position: center bottom;
 	width: 26vw;
 	height: 33vw;
+}
+.about-point{
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+	justify-content: center;
 }
 .about-point ul{
 	margin:0;
