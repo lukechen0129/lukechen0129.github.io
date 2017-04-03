@@ -198,20 +198,23 @@ body{
 	height:20px;
 	border-radius: 8px;
 	margin-top: 20px;
+ border:1px solid #878787;
 }
 .field{
 	position: relative;
 }
 input ~ label{
 	position:absolute;
-	top:23px;
+	top:26px;
 	left:6px;
+	font-size: 12px;
+	transition: 0.4s;
 }
 input:focus ~ label,
 input:not(:focus):valid ~ label{
   top: 0px;
   left: 6px;
-  font-size: 11px;
+  font-size: 12px;
   opacity: 1;
 }
 input.gform_btn{
