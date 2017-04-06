@@ -120,13 +120,18 @@
 		</div>
 		<div class="contact">
 			<div class="title2">CONTACT ME</div>
+			<script>
+				var submitted;
+			</script>
 			<script type="text/javascript">
-      $('#gform').on('submit', function(e) {
-        $('#gform *').fadeOut(2000);
-        $('#gform').prepend('已成功登記！感謝您～');
+			$(document).ready(function(){
+      	$('#gform').on('submit', function() {
+        	$('#gform *').fadeOut(2000);
+        	$('#gform').prepend('已成功登記！感謝您～');
         });
+			});
       </script>
-			<form class="col-5 col-m-12" name="gform" id="gform" enctype="text/plain" target="hidden_iframe" action="https://docs.google.com/forms/d/1TdJaq4mW2DUdcWXQ7479Gat2rWu0ryyI2cJmT2HP3sQ/formResponse">
+			<form class="col-5 col-m-12" name="gform" id="gform" enctype="text/plain" onSubmit="this.innerHTML=('Thank you for your contact, I will reply as soon as possible.');" target="hidden_iframe" action="https://docs.google.com/forms/d/1TdJaq4mW2DUdcWXQ7479Gat2rWu0ryyI2cJmT2HP3sQ/formResponse">
 				<div class="field ">
 					<input name="entry.274649099" id="entry.274649099" type="text" required>
 					<label for="entry.274649099">Name</label>
