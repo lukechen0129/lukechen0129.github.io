@@ -23,7 +23,8 @@ body{
 	left:0;
 
 }
-input:focus{
+input:focus,
+textarea:focus{
 	outline:0;
 }
 .button{
@@ -218,6 +219,7 @@ input:focus{
 	border-radius: 8px;
 	margin-top: 20px;
  	border:0px solid #878787;
+	-webkit-appearance: none;
 }
 .contact form textarea{
 	margin-top: 20px;
