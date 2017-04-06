@@ -126,7 +126,7 @@
 			<script type="text/javascript">
 			$(document).ready(function(){
       	$('#gform').on('submit', function() {
-        	$('#gform *').fadeOut(2000);
+        	$('#gform *').fadeOut(200);
         	$('#gform').prepend('Thank you for your message. I will reply as soon as possible.');
         });
 			});
@@ -135,10 +135,12 @@
 				<div class="field ">
 					<input name="entry.274649099" id="entry.274649099" type="text" required>
 					<label for="entry.274649099">Name</label>
+					<span class="bottom-line"></span>
 				</div>
 				<div class="field " stlye="margin-top:5px;">
-					<input name="entry.1677447218" id="entry.1677447218" type="email" required>
+					<input name="entry.1677447218" id="entry.1677447218" type="text" required>
 					<label for="entry.1677447218">Email</label>
+					<span class="bottom-line"></span>
 				</div>
 				<div class="field">
 					<textarea name="entry.271150526" id="entry.271150526" required></textarea>
