@@ -146,9 +146,12 @@ textarea:focus{
 	justify-content: center;
 	align-items: center;
 }
-.about-pic img{
+.about-pic img, .about-pic div{
 	width:100%;
 	height:auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 .about-point{
 	display: flex;
