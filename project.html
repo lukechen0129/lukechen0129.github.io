@@ -47,7 +47,7 @@
 	  	</div>
 		</div>
 		<div class="projects">
-			<div class="project-card" onclick="void(0)" style="background-image:url(/img/imusicidol-showcase-compressed.png);">
+			<div class="project-card" onclick="void(0)" style="background-image:url(./img/imusicidol-showcase-compressed.png);">
 				<div class="card-content">
 					<div class="title">
 						iMusic Idol Official website
@@ -59,7 +59,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="project-card" onclick="void(0)" style="background-image:url(/img/ems-showcase-compressed.png);">
+			<div class="project-card" onclick="void(0)" style="background-image:url(./img/ems-showcase-compressed.png);">
 				<div class="card-content">
 					<div class="title">
 						Event Management System
@@ -72,7 +72,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="project-card" onclick="void(0)" style="background-image:url(/img/wsm-showcase-compressed.png);">
+			<div class="project-card" onclick="void(0)" style="background-image:url(./img/wsm-showcase-compressed.png);">
 				<div class="card-content">
 					<div class="title">
 						WSM Music Official website
@@ -85,27 +85,40 @@
 				</div>
 			</div>
 
-			<div class="project-card" onclick="void(0)" style="background-image:url(/img/finhack-showcase-compressed.png);">
+			<div class="project-card" onclick="void(0)" style="background-image:url(./img/finhack-showcase-compressed.png);">
 				<div class="card-content">
 					<div class="title">
 						FinHACK Official website
 					</div>
 					<div style="background-color:white; width:80%; height:1px; margin:8px;"></div>
 					<div class="content">
-						An Official website for FinHACK Hackathon orgainized by WHub. Responsible for <b>Design</b> and <b>Implementation</b> sponsor page and challenges page. It was built during my Internship in WHub.
+						An Official website for FinHACK Hackathon orgainized by WHub. <span>Responsible for <b>Design</b> and <b>Implementation</b> sponsor page and challenges page. It was built during my Internship in WHub.</span>
 						<br><br><a href="http://finhack.io/" target="_blank" style="color:white;">view more</a>
 					</div>
 				</div>
 			</div>
 
-			<div class="project-card" onclick="void(0)" style="background-image:url(/img/whub-showcase-compressed.png);">
+			<div class="project-card" onclick="void(0)" style="background-image:url(./img/whub-showcase-compressed.png);">
 				<div class="card-content">
 					<div class="title">
 						WHub Official website
 					</div>
 					<div style="background-color:white; width:80%; height:1px; margin:8px;"></div>
 					<div class="content">
-						An Official website for WHub. Responsible for <b>Design</b> and <b>Implementation</b> of the events page. And <b>Implementation</b> of the new design for talents, startups page. It was built during my Internship in WHub.
+						An Official website for WHub. <span>Responsible for <b>Design</b> and <b>Implementation</b> of the events page. And <b>Implementation</b> of the new design for talents, startups page.</span> It was built during my Internship in WHub.
+						<br><br><a href="http://whub.io/" target="_blank" style="color:white;">view more</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="project-card" onclick="void(0)" style="background-image:url(./img/aiavibe-showcase.png);">
+				<div class="card-content">
+					<div class="title">
+						AIA Vibe app
+					</div>
+					<div style="background-color:white; width:80%; height:1px; margin:8px;"></div>
+					<div class="content">
+ 						An app for mental health tracking. <span>Provide stress level and recommendation to keep user mentally healthier.</span> It was built during AIA LIFEHACK18.
 						<br><br><a href="http://whub.io/" target="_blank" style="color:white;">view more</a>
 					</div>
 				</div>
@@ -140,7 +153,7 @@
 	  <div style="padding:3px;"><a href="mailto:luke.chen.dev@gmail.com" style="text-decoration: none; color:white;"><i class="fa fa-envelope" aria-hidden="true"></i>  luke.chen.dev@gmail.com</a></div>
 
 	  <div class="copyright">
-	    Copyright © 2017 Luke Chen. All rights reserved.
+	    Copyright © <span id="year" style="margin: 0 3px;">2018</span> Luke Chen. All rights reserved.
 	  </div>
 	</div>
 	<script>
@@ -151,6 +164,11 @@
 
 		ga('create', 'UA-80307643-2', 'auto');
 		ga('send', 'pageview');
+	</script>
+	<script>
+		$(document).ready(function(){
+			$('#year').html(" "+new Date().getFullYear()+" ");
+		});
 	</script>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </body>
