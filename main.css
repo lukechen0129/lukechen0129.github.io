@@ -93,12 +93,13 @@ textarea:focus{
   position: relative;
   display: flex;
   flex-direction: column;
-  height: 700px;
+  height: 900px;
   align-items: center;
   justify-content: center;
-  background-position: bottom left;
-  background-repeat: no-repeat;
-  background-image: url(/img/hero-slide02.jpg);
+  background-position: bottom;
+	background-repeat: no-repeat;
+	
+  background-image: linear-gradient(to bottom,rgba(78, 71, 61, 0.4),rgba(78,71,61,0.4) ),url(./img/hero-slide02.jpg);
   background-size: cover;
 }
 .banner::before{
@@ -109,7 +110,7 @@ textarea:focus{
   color: white;
   font-family: "LuloClean-OneBold";
 }
-.title2{
+.section-title{
 	color: #2A5382;
   font-size: 35px;
   padding: 40px;
@@ -206,6 +207,8 @@ textarea:focus{
 .timeline{
 	position: relative;
 	min-width: 60vw;
+	max-width: 100vw;
+	width: 1130px;
 }
 .timeline::before{
 	content: "";
@@ -220,12 +223,13 @@ textarea:focus{
 }
 .card{
 	background-color: #fff;
-    border-radius: 5px;
-    border: rgba(0,0,0,0.1) 1px solid;
-    padding: 18px;
-    width: 350px;
-    color: #03a6de;
-    margin: 50px 5px;
+	border-radius: 5px;
+	border: 0px;
+	box-shadow: 0 1px 1px 1px rgba(0,0,0,0.2);
+	padding: 24px;
+	width: 470px;
+	color: #03a6de;
+	margin: 50px 5px;
 }
 .timeline > .timeline-item{
 	position: relative;
@@ -234,7 +238,42 @@ textarea:focus{
 .timeline > .timeline-item:nth-child(2n){
 	flex-direction: row-reverse !important;
 }
-
+.timeline > .timeline-item:nth-child(2n) .card{
+	flex-direction: row-reverse !important;
+}
+.timeline > .timeline-item .image{
+	margin-right: 15px;
+	
+}
+.timeline > .timeline-item .image > img{
+	height: auto;
+	max-width: 80px;
+}
+.timeline > .timeline-item:nth-child(2n) .image{
+	margin-right: 0px;
+	margin-left: 15px;
+}
+.timeline-item .name{
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 1.2px;
+}
+.timeline-item .info{
+	padding-top: 8px;
+}
+.timeline-item .organisation{
+	font-size: 16px;
+}
+.timeline-item .date{
+	color: #878787;
+}
+.timeline-item .details{
+	font-family: 'Montserrat';
+	color: #666666;
+	font-size: 15px;
+	padding-top: 10px;
+	letter-spacing: 1px;
+}
 .bullet{
 	background-color: #03a6de;
 	height: 15px;
@@ -396,6 +435,14 @@ textarea:not(:focus):valid ~ label{
 	align-items: center;
 	justify-content: space-between;
 }
+.flex-start-between{
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.flex-start-start{
+	align-items: flex-start;
+	justify-content: flex-start;
+}
 .flex-row{
 	flex-direction: row;
 }
@@ -445,7 +492,7 @@ textarea:not(:focus):valid ~ label{
 	.logo{
 		margin:0 0 0 4%;
 	}
-	.title2{
+	.section-title{
 		padding: 15px;
 		font-size: 25px;
 	}
