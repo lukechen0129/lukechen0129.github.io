@@ -107,6 +107,7 @@ textarea:focus{
 .title{
   font-size: 60px;
   color: white;
+  font-family: "LuloClean-OneBold";
 }
 .title2{
 	color: #2A5382;
@@ -115,7 +116,8 @@ textarea:focus{
 }
 .title3{
   color: white;
-  font-size: 15px;
+  font-size: 14px;
+  font-family: "LuloClean-One";
     font-weight: 200;
     padding: 6px;
     margin: 5px;
@@ -485,4 +487,20 @@ textarea:not(:focus):valid ~ label{
 		height:40px;
 		font-size:20px;
 	}
+}
+@font-face {font-family: "LuloClean-One";
+    src: url("//db.onlinewebfonts.com/t/116d187134420de5733c7c45bbc80c46.eot");
+    src: url("//db.onlinewebfonts.com/t/116d187134420de5733c7c45bbc80c46.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/116d187134420de5733c7c45bbc80c46.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/116d187134420de5733c7c45bbc80c46.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/116d187134420de5733c7c45bbc80c46.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/116d187134420de5733c7c45bbc80c46.svg#LuloCleanW01-One") format("svg");
+}
+@font-face {font-family: "LuloClean-OneBold";
+    src: url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.eot");
+    src: url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.svg#LuloCleanW01-OneBold") format("svg");
 }
