@@ -509,6 +509,13 @@ textarea:not(:focus):valid ~ label{
 		width: 100vw;
 		padding:15px 0;
 	}
+		.about-pic img{
+		width:85%;
+		height:auto;
+	}
+	.about-point ul{
+		padding-right: 15px;
+	}
 }
 @media only screen and (max-width:560px) {
 	.col-m-12 {
@@ -556,13 +563,6 @@ textarea:not(:focus):valid ~ label{
 	}
 	.banner{
 		height:300px;
-	}
-	.about-pic img{
-		width:85%;
-		height:auto;
-	}
-	.about-point ul{
-		padding-right: 15px;
 	}
 	.bullet{
 		top: 0;
