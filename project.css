@@ -160,7 +160,7 @@ body{
   border: 1px #878787 solid;
   border-radius: 8px;
   width: 30vw;
-  height: 20vw;
+  height: 16.8vw;
   position: relative;
   margin: 15px;
   display: flex;
@@ -221,27 +221,27 @@ body{
 @media only screen and (max-width: 960px){
   
   .project-card{
-		width:43vw;
-		height:30vw;
-		margin:2vw;
+		width: 43vw;
+		height: 24.2vw;
+		margin: 2vw;
 	}
 }
 @media only screen and (max-width:620px) {
 	#m-menu-btn{
 		display: block;
 		position: absolute;
-		right:20px;
-		top:18px;
+		right: 20px;
+		top: 18px;
 	}
 	.header ul{
 		display: none;
 	}
 	#m-menu-list{
 		position: absolute;
-		width:100vw;
-		top:55px;
-		left:0;
-		height:auto;
+		width: 100vw;
+		top: 55px;
+		left: 0;
+		height: auto;
 	}
 	#m-menu-list ul{
 		display: flex;
@@ -250,27 +250,27 @@ body{
 		justify-content: center;
 	}
 	.banner{
-		height:300px;
+		height: 300px;
 	}
 	.projects{
 		flex-direction: column;
-		padding:2.5vw;
+		padding: 2.5vw;
 
 	}
 	.project-card{
-		width:90vw;
-		height:60vw;
-		margin:2.5vw;
+		width: 90vw;
+		height: 50.6vw;
+		margin: 2.5vw;
 	}
 	.contact-icon{
-		width:40px;
-		height:40px;
-		font-size:20px;
+		width: 40px;
+		height: 40px;
+		font-size: 20px;
   }
   .project-card .card-content .title{
-    font-size:26px;
+    font-size: 26px;
   }
   .project-card .card-content .content{
-    font-size:16px;
+    font-size: 16px;
   }
 }

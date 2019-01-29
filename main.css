@@ -201,6 +201,54 @@ textarea:focus{
 	height:60px;
 	width:auto;
 }
+.timeline{
+	position: relative;
+	min-width: 60vw;
+}
+.timeline::before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 20px auto;
+	width: 2px;
+	height: 100%;
+	background-color: #e1e1e1;
+}
+.card{
+	background-color: #fff;
+    border-radius: 5px;
+    border: rgba(0,0,0,0.1) 1px solid;
+    padding: 18px;
+    width: 350px;
+    color: #03a6de;
+    margin: 50px 5px;
+}
+.timeline > .timeline-item{
+	position: relative;
+	display: flex;
+}
+.timeline > .timeline-item:nth-child(2n){
+	flex-direction: row-reverse !important;
+}
+
+.bullet{
+	background-color: #03a6de;
+	height: 15px;
+	width: 15px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-radius: 50%;
+	border: #03a6de 1px solid;
+	margin: auto;
+}
+.bullet:last-child{
+	animation: grow 1.5s ease-in-out infinite;
+}
 .contact{
 	display: flex;
 	flex-direction: column;
@@ -325,6 +373,51 @@ textarea:not(:focus):valid ~ label{
 .copyright{
   padding:3px 3px 6px 3px;
   font-size: 12px;
+}
+/* Common usage class */
+.flex{
+	display: flex;
+}
+.flex-center{
+	align-items: center;
+	justify-content: center;
+}
+.flex-end{
+	align-items: center;
+	justify-content: flex-end;
+}
+.flex-start{
+	align-items: center;
+	justify-content: flex-start;
+}
+.flex-between{
+	align-items: center;
+	justify-content: space-between;
+}
+.flex-row{
+	flex-direction: row;
+}
+.flex-row-rev{
+	flex-direction: row-reverse;
+}
+.flex-col{
+	flex-direction: column;
+}
+.flex-col-rev{
+	flex-direction: column-reverse;
+}
+.flex-wrap{
+	flex-wrap: wrap;
+}
+.bg-cover{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/* end of common usage */
+@keyframes grow {
+	from {width: 15px; height: 15px; opacity: 1;}
+	to {width: 30px; height: 30px; opacity: 0;}
 }
 @media only screen and (min-width:1024px){
 	[class*="col-"] {
