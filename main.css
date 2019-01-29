@@ -114,6 +114,9 @@ textarea:focus{
   color: white;
   font-family: "LuloClean-OneBold";
 }
+.mobile-br{
+	display: none;
+}
 .section-title{
 	color: #2A5382;
   font-size: 30px;
@@ -124,12 +127,13 @@ textarea:focus{
   color: white;
   font-size: 14px;
   font-family: "LuloClean-One";
-    font-weight: 200;
-    padding: 6px;
-    margin: 5px;
-    letter-spacing: 1px;
-    border-bottom: white solid 1px;
-    border-top: white solid 1px;
+	font-weight: 200;
+	padding: 6px;
+	margin: 5px;
+	letter-spacing: 1px;
+	border-bottom: white solid 1px;
+	border-top: white solid 1px;
+	text-align: center;
 }
 .about{
   display:flex;
@@ -245,7 +249,7 @@ textarea:focus{
 	flex-direction: row-reverse !important;
 }
 .timeline > .timeline-item:nth-child(2n) .card{
-	flex-direction: row-reverse !important;
+	flex-direction: row-reverse;
 }
 .timeline > .timeline-item .image{
 	margin-right: 15px;
@@ -474,7 +478,7 @@ textarea:not(:focus):valid ~ label{
 	from {width: 15px; height: 15px; opacity: 1;}
 	to {width: 30px; height: 30px; opacity: 0;}
 }
-@media only screen and (min-width:1024px){
+@media only screen and (max-width:1024px){
 	[class*="col-"] {
 	}
 	.col-1 {width: 8.33%;}
@@ -490,6 +494,22 @@ textarea:not(:focus):valid ~ label{
 	.col-11 {width: 91.66%;}
 	.col-12 {width: 100%;}
 }
+@media only screen and (max-width:1024px){
+	.bullet{
+		top: 0;
+		bottom: auto;
+	}
+	.bullet:last-child{
+		display: none;
+	}
+	.timeline-item .card{
+		margin-top: 30px !important;
+	}
+	.col-m-12 {
+		width: 100vw;
+		padding:15px 0;
+	}
+}
 @media only screen and (max-width:560px) {
 	.col-m-12 {
 		width: 100vw;
@@ -497,6 +517,15 @@ textarea:not(:focus):valid ~ label{
 	}
 	.logo{
 		margin:0 0 0 4%;
+	}
+	.title{
+		font-size:35px;
+	}
+	.title3{
+		font-size:12px;
+	}
+	.mobile-br{
+		display: inline;
 	}
 	.section-title{
 		padding: 15px;
@@ -534,6 +563,23 @@ textarea:not(:focus):valid ~ label{
 	}
 	.about-point ul{
 		padding-right: 15px;
+	}
+	.bullet{
+		top: 0;
+		bottom: auto;
+	}
+	.bullet:last-child{
+		display: none;
+	}
+	.timeline-item .card{
+		margin-top: 30px !important;
+	}
+	.timeline-item:nth-child(2n) .card{
+		flex-direction: row !important;
+	}
+	.timeline > .timeline-item:nth-child(2n) .image{
+		margin-left: 0px;
+		margin-right: 15px;
 	}
 	.contact-icon{
 		width:40px;
