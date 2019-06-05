@@ -284,7 +284,7 @@ textarea:focus{
 	color: #878787;
 }
 .timeline-item .details{
-	font-family: 'Montserrat';
+	font-family: 'Sofia Pro Light','Montserrat';
 	color: #666666;
 	font-size: 15px;
 	padding-top: 10px;
@@ -604,6 +604,9 @@ textarea:not(:focus):valid ~ label{
 		url("//db.onlinewebfonts.com/t/116d187134420de5733c7c45bbc80c46.woff") format("woff"),
 		url("//db.onlinewebfonts.com/t/116d187134420de5733c7c45bbc80c46.ttf") format("truetype"),
 		url("//db.onlinewebfonts.com/t/116d187134420de5733c7c45bbc80c46.svg#LuloCleanW01-One") format("svg");
+}
+@font-face {font-family: "Sofia Pro Light";
+	src: url("/res/Sofia Pro Light.ttf") format("truetype");
 }
 @font-face {font-family: "LuloClean-OneBold";
 		src: url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.eot");
