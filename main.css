@@ -387,13 +387,14 @@ textarea:not(:focus):valid ~ label{
 		align-items: center;
 		justify-content: center;
 		flex-direction: column;
+		padding: 10px 0;
 		bottom: 0;
 		left: 0;
 		width: 100%;
 		background-color: #1F273C;
 		color:white;
 		font-weight: 300;
-		font-size:14px;
+		font-size: 14px;
 }
 .contact-container{
 	display: flex;
@@ -403,11 +404,14 @@ textarea:not(:focus):valid ~ label{
 	color:#1F273C;
 	background-color:white;
 	border-radius:50%;
-	border:0.1px solid white;
+	border:1px solid white;
+	padding-top: 1px;
+	padding-left: 1px;
 	margin:5px;
-	width: 28px;
-	height: 28px;
+	width: 40px;
+	height: 40px;
 	display: flex;
+	font-size: 20px;
 	align-items: center;
 	justify-content: center;
 }
@@ -415,10 +419,8 @@ textarea:not(:focus):valid ~ label{
 	color:white;
 	background-color:#1F273C;
 	border-radius:50%;
-	border:0.1px solid white;
+	border:1px solid white;
 	margin:5px;
-	width: 28px;
-	height: 28px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -434,6 +436,9 @@ textarea:not(:focus):valid ~ label{
 .copyright{
 	padding:3px 3px 6px 3px;
 	font-size: 12px;
+	margin-top: 10px;
+	font-weight: 400;
+	color: #59647b;
 }
 /* Common usage class */
 .flex{
