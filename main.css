@@ -1,20 +1,25 @@
+:root{
+	--primary-color: #33658a;
+	--highlight-color: #03a6de;
+	--secondary-color: #1f273c;
+}
 body{
-  position:relative;
-  font-family: 'Roboto', sans-serif;
-  margin:0;
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+	margin:0;
 }
 .header{
-    display: flex;
+		display: flex;
 		align-items: center;
 		justify-content: space-between;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height:55px;
-    padding: 0 0;
-    background-color: rgba(210,222,234,0.7);
-    z-index: 100;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height:55px;
+		padding: 0 0;
+		background-color: rgba(210,222,234,0.7);
+		z-index: 100;
 }
 .bottom-line{
 	height:1px;
@@ -34,45 +39,45 @@ textarea:focus{
 	text-decoration: none;
 	padding:15px;
 	width: 150px;
-  text-align: center;
+	text-align: center;
 	transition: 0.4s;
 }
 .button:hover{
 	background-color: #6d9dc5;
 }
 .header ul{
-    list-style-type: none;
-    overflow: hidden;
+		list-style-type: none;
+		overflow: hidden;
 		padding: 0 10px 0 15px;
 		margin-right: 3%;
 }
 .header li{
-  float: left;
+	float: left;
 }
 .header li a{
-  padding: 10px;
-  color: #1F273C;
-  text-decoration: none;
+	padding: 10px;
+	color: #1F273C;
+	text-decoration: none;
 	display: block;
 	font-family: 'Montserrat';
 }
 .header li a.active{
-  color: #2A5382;
+	color: #2A5382;
 }
 .logo{
-    padding: 4px 2px 2px 2px;
-    font-size: 24px;
-    position: relative;
-    margin: 0px 0 5px 4%;
-    font-weight: 400;
-    height: 20px;
-    display: flex;
-    align-items: center;
+		padding: 4px 2px 2px 2px;
+		font-size: 24px;
+		position: relative;
+		margin: 0px 0 5px 4%;
+		font-weight: 400;
+		height: 20px;
+		display: flex;
+		align-items: center;
 		justify-content: center;
 		font-family: "LuloClean-OneBold";
-    transition: all 0.6s ease;
-    color: #2A5382;
-    /* border: #2A5382 2px solid; */
+		transition: all 0.6s ease;
+		color: #2A5382;
+		/* border: #2A5382 2px solid; */
 }
 #m-menu-list, #m-menu-btn{
 	z-index: 100;
@@ -90,43 +95,43 @@ textarea:focus{
 	display: hidden;
 }
 .contents{
-  /*margin-top: 71px;*/
-  background-color: white;
+	/*margin-top: 71px;*/
+	background-color: white;
 }
 .banner{
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  align-items: center;
-  justify-content: center;
-  background-position: bottom;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+	background-position: bottom;
 	background-repeat: no-repeat;
-	
-  background-image: linear-gradient(to bottom,rgba(78, 71, 61, 0.4),rgba(78,71,61,0.4) ),url(./img/hero-slide02.jpg);
-  background-size: cover;
+
+	background-image: linear-gradient(to bottom,rgba(78, 71, 61, 0.4),rgba(78,71,61,0.4) ),url(./img/hero-slide02.jpg);
+	background-size: cover;
 }
 .banner::before{
-  background-color: rgba(24,24,255,0.4);
+	background-color: rgba(24,24,255,0.4);
 }
 .title{
-  font-size: 60px;
-  color: white;
-  font-family: "LuloClean-OneBold";
+	font-size: 60px;
+	color: white;
+	font-family: "LuloClean-OneBold";
 }
 .mobile-br{
 	display: none;
 }
 .section-title{
 	color: #2A5382;
-  font-size: 30px;
+	font-size: 30px;
 	padding: 40px;
 	font-family: "LuloClean-OneBold";
 }
 .title3{
-  color: white;
-  font-size: 14px;
-  font-family: "LuloClean-One";
+	color: white;
+	font-size: 14px;
+	font-family: "LuloClean-One";
 	font-weight: 200;
 	padding: 6px;
 	margin: 5px;
@@ -136,9 +141,9 @@ textarea:focus{
 	text-align: center;
 }
 .about{
-  display:flex;
-  flex-direction:column;
-  align-items: center;
+	display:flex;
+	flex-direction:column;
+	align-items: center;
 	justify-content: center;
 }
 .about-container{
@@ -167,8 +172,8 @@ textarea:focus{
 }
 .about-point{
 	display: flex;
-  flex-direction: column;
-  align-items: center;
+	flex-direction: column;
+	align-items: center;
 	justify-content: space-between;
 }
 .about-point ul{
@@ -208,7 +213,8 @@ textarea:focus{
 	transition: 0.4s;
 }
 .skill-container ul a li:hover{
-	opacity:0.5;
+	/* opacity:0.5; */
+	transform: scale(1.3);
 }
 .skill-container ul a li img{
 	height:60px;
@@ -253,7 +259,7 @@ textarea:focus{
 }
 .timeline > .timeline-item .image{
 	margin-right: 15px;
-	
+
 }
 .timeline > .timeline-item .image > img{
 	height: auto;
@@ -320,21 +326,21 @@ textarea:focus{
 	height:20px;
 	border-radius: 8px;
 	margin-top: 20px;
- 	border:0px solid #878787;
+	border:0px solid #878787;
 	-webkit-appearance: none;
 }
 .contact form textarea{
 	margin-top: 20px;
 	width:100%;
-  height: 60px;
+	height: 60px;
 	padding: 5px;
-  border-radius: 8px;
-  border: 1px solid #878787;
+	border-radius: 8px;
+	border: 1px solid #878787;
 }
 .field{
 	position: relative;
 	width:85%;
-	margin-top: 10px;
+	margin-top: 15px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -344,7 +350,7 @@ input ~ label, textarea ~ label{
 	color:#878787;
 	top:28px;
 	left:8px;
-	font-size: 12px;
+	font-size: 14px;
 	transition: 0.4s;
 }
 .field input ~ span{
@@ -358,72 +364,76 @@ input:focus ~ label,
 input:not(:focus):valid ~ label,
 textarea:focus ~ label,
 textarea:not(:focus):valid ~ label{
-  top: 0px;
-  left: 8px;
-  font-size: 12px;
-  opacity: 1;
+	top: 0px;
+	left: 8px;
+	font-size: 14px;
+	opacity: 1;
 }
 .gform_btn{
 	width: 200px;
-	height: 30px;
+	height: 40px !important;
 	padding:5px;
-	border-radius: 8px;
-	border:1px #1f273c solid;
-	background-color: #1f273c;
+	/* border:1px #1f273c solid; */
+	background-color: #33658a;
 	color: white;
+	height: 40px;
+	font-weight: 300;
+	width: 85% !important;
+	font-size: 14px;
+	border-radius: 25px !important;
 }
 .footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: #1F273C;
-    color:white;
-    font-weight: 300;
-    font-size:14px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		background-color: #1F273C;
+		color:white;
+		font-weight: 300;
+		font-size:14px;
 }
 .contact-container{
-  display: flex;
-  padding: 6px 3px 3px 3px;
+	display: flex;
+	padding: 6px 3px 3px 3px;
 }
 .contact-icon{
-  color:#1F273C;
-  background-color:white;
-  border-radius:50%;
+	color:#1F273C;
+	background-color:white;
+	border-radius:50%;
 	border:0.1px solid white;
-  margin:5px;
-  width: 28px;
-  height: 28px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	margin:5px;
+	width: 28px;
+	height: 28px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .contact-icon:hover{
-  color:white;
-  background-color:#1F273C;
-  border-radius:50%;
+	color:white;
+	background-color:#1F273C;
+	border-radius:50%;
 	border:0.1px solid white;
-  margin:5px;
-  width: 28px;
-  height: 28px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	margin:5px;
+	width: 28px;
+	height: 28px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .contact-icon:hover a{
-  text-decoration: none;
-  color:white;
+	text-decoration: none;
+	color:white;
 }
 .contact-icon a{
-  text-decoration: none;
-  color:#1F273C;
+	text-decoration: none;
+	color:#1F273C;
 }
 .copyright{
-  padding:3px 3px 6px 3px;
-  font-size: 12px;
+	padding:3px 3px 6px 3px;
+	font-size: 12px;
 }
 /* Common usage class */
 .flex{
@@ -588,18 +598,18 @@ textarea:not(:focus):valid ~ label{
 	}
 }
 @font-face {font-family: "LuloClean-One";
-    src: url("//db.onlinewebfonts.com/t/116d187134420de5733c7c45bbc80c46.eot");
-    src: url("//db.onlinewebfonts.com/t/116d187134420de5733c7c45bbc80c46.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/116d187134420de5733c7c45bbc80c46.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/116d187134420de5733c7c45bbc80c46.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/116d187134420de5733c7c45bbc80c46.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/116d187134420de5733c7c45bbc80c46.svg#LuloCleanW01-One") format("svg");
+		src: url("//db.onlinewebfonts.com/t/116d187134420de5733c7c45bbc80c46.eot");
+		src: url("//db.onlinewebfonts.com/t/116d187134420de5733c7c45bbc80c46.eot?#iefix") format("embedded-opentype"),
+		url("//db.onlinewebfonts.com/t/116d187134420de5733c7c45bbc80c46.woff2") format("woff2"),
+		url("//db.onlinewebfonts.com/t/116d187134420de5733c7c45bbc80c46.woff") format("woff"),
+		url("//db.onlinewebfonts.com/t/116d187134420de5733c7c45bbc80c46.ttf") format("truetype"),
+		url("//db.onlinewebfonts.com/t/116d187134420de5733c7c45bbc80c46.svg#LuloCleanW01-One") format("svg");
 }
 @font-face {font-family: "LuloClean-OneBold";
-    src: url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.eot");
-    src: url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.svg#LuloCleanW01-OneBold") format("svg");
+		src: url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.eot");
+		src: url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.eot?#iefix") format("embedded-opentype"),
+		url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.woff2") format("woff2"),
+		url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.woff") format("woff"),
+		url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.ttf") format("truetype"),
+		url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.svg#LuloCleanW01-OneBold") format("svg");
 }
